@@ -1,2 +1,2 @@
-# Team-1350-Backend
-Welocomote Backend
+# Team-1350-Frontend
+Welocomote Frontend
