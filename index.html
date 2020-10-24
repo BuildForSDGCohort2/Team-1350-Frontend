@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="./asset/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
@@ -49,29 +50,29 @@
       </div>
     </nav>
 
-    <div class="services container p-4 text-center mt-5 mb-5">
-      <span class="p-3">
+    <div class="services container p-4 text-center mt-5 mb-5 fade-right" data-aos="fade-right">
+      <span class="p-3" data-aos="zoom-out" data-aos-duration="3000">
         <a href="#" class="box"><i class="fas fa-bicycle p-3"></i>Bike</a>
       </span>
-      <span class="p-3">
-        <a href="#" class="box"><i class="fas fa-bus p-3"></i>Bus</a>
+      <span class="p-3" data-aos="zoom-out" data-aos-duration="3000">
+        <a href="#" class="box" ><i class="fas fa-bus p-3"></i>Bus</a>
       </span>
-      <span class="p-3">
-        <a href="#" class="box"><i class="fas fa-ship p-3"></i>Ship</a>
+      <span class="p-3" data-aos="zoom-out" data-aos-duration="3000">
+        <a href="#" class="box" ><i class="fas fa-ship p-3"></i>Ship</a>
       </span>
-      <span class="p-3">
-        <a href="#" class="box"><i class="fas fa-train p-3"></i>Train</a>
+      <span class="p-3" data-aos="zoom-out" data-aos-duration="3000">
+        <a href="#" class="box" ><i class="fas fa-train p-3"></i>Train</a>
       </span>
-      <span class="p-3">
-        <a href="#" class="box"><i class="fas fa-plane p-3"></i>Plane</a>
+      <span class="p-3" data-aos="zoom-out" data-aos-duration="3000">
+        <a href="#" class="box" ><i class="fas fa-plane p-3"></i>Plane</a>
       </span>
     </div>
 
     <div class="container mt-5 text-white mb-5">
-      <p class="stateone">REDEFINIG</p>
-      <p class="statetwo">TRANSPORTATION IN</p>
-      <p class="statethree">LAGOS</p>
-      <p class="state"><strong>Book A Ticket Today!</strong></p>
+      <p class="stateone" data-aos="fade-up-right">REDEFINIG</p>
+      <p class="statetwo" data-aos="fade-up-right">TRANSPORTATION IN</p>
+      <p class="statethree" data-aos="fade-up-right">LAGOS</p>
+      <p class="state" data-aos="fade-up-right"><strong>Book A Ticket Today!</strong></p>
     </div>
 
     <footer class="bottom">
@@ -104,15 +105,18 @@
               <a href="#" class="box"><i class="fas fa-plane p-3"></i>Plane</a>
             </span><br>
           </div>
-        </div> 
-          <p class="text-center pt-3 mb-0">&copy;Welocomote 2020</p>
         </div>
+      </div>
     </footer>
-
     <!-- Optional JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
+  <div class="footer text-center p-2 mt-5">&copy;Welocomote 2020</div>
 </html>
